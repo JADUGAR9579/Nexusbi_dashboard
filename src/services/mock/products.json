@@ -1,0 +1,12 @@
+[
+  {"id":"P001","name":"Enterprise Suite","category":"SaaS","price":299,"sales":2808,"growth":22.4,"stock":999,"status":"active","description":"Full enterprise analytics platform with unlimited seats"},
+  {"id":"P002","name":"Pro Plan Annual","category":"SaaS","price":199,"sales":3116,"growth":15.8,"stock":999,"status":"active","description":"Professional tier with advanced features and priority support"},
+  {"id":"P003","name":"AI Module","category":"AI","price":149,"sales":3221,"growth":34.2,"stock":999,"status":"active","description":"AI-powered insights, trend detection and anomaly alerts"},
+  {"id":"P004","name":"Growth Bundle","category":"Growth","price":129,"sales":2791,"growth":11.3,"stock":999,"status":"active","description":"All tools to track and accelerate business growth"},
+  {"id":"P005","name":"Data Analytics Pack","category":"Analytics","price":99,"sales":2828,"growth":8.7,"stock":999,"status":"active","description":"Advanced data analytics with custom dashboards"},
+  {"id":"P006","name":"Starter Kit","category":"SaaS","price":49,"sales":5840,"growth":5.2,"stock":999,"status":"active","description":"Perfect starter plan for small teams"},
+  {"id":"P007","name":"Team License","category":"SaaS","price":79,"sales":1980,"growth":9.8,"stock":999,"status":"active","description":"Team collaboration with shared dashboards"},
+  {"id":"P008","name":"API Access","category":"Developer","price":59,"sales":1240,"growth":28.6,"stock":999,"status":"active","description":"Full REST API access with rate limits"},
+  {"id":"P009","name":"White Label","category":"Enterprise","price":499,"sales":420,"growth":18.9,"stock":999,"status":"active","description":"Fully branded analytics platform for resellers"},
+  {"id":"P010","name":"Custom Integration","category":"Enterprise","price":899,"sales":180,"growth":41.2,"stock":999,"status":"active","description":"Custom data source integrations and setup"}
+]

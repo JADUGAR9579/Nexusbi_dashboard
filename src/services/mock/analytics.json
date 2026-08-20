@@ -1,0 +1,51 @@
+{
+  "kpis": {
+    "totalRevenue": {"value": 2840000, "change": 18.2, "trend": "up"},
+    "totalUsers": {"value": 48392, "change": 12.5, "trend": "up"},
+    "activeCustomers": {"value": 31047, "change": 8.3, "trend": "up"},
+    "conversionRate": {"value": 4.72, "change": 0.8, "trend": "up"},
+    "monthlyGrowth": {"value": 23.1, "change": 5.2, "trend": "up"},
+    "ordersCompleted": {"value": 14821, "change": -2.1, "trend": "down"},
+    "retentionRate": {"value": 87.4, "change": 1.6, "trend": "up"},
+    "avgOrderValue": {"value": 191.40, "change": 9.3, "trend": "up"}
+  },
+  "traffic": {
+    "organic": 42, "social": 28, "paid": 18, "direct": 8, "referral": 4
+  },
+  "userGrowth": {
+    "labels": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+    "newUsers": [1200,1450,1380,1620,1800,1950,2100,1980,2250,2400,2650,2900],
+    "returningUsers": [2100,2350,2200,2580,2800,3050,3200,3100,3450,3700,3950,4200]
+  },
+  "salesDistribution": [
+    {"name":"Enterprise","value":38,"color":"#6366f1"},
+    {"name":"Pro","value":28,"color":"#22c97b"},
+    {"name":"Growth","value":18,"color":"#f5a623"},
+    {"name":"Starter","value":11,"color":"#a78bfa"},
+    {"name":"Other","value":5,"color":"#8892a4"}
+  ],
+  "conversionFunnel": [
+    {"stage":"Visits","users":100000},
+    {"stage":"Signups","users":28000},
+    {"stage":"Trial","users":11000},
+    {"stage":"Paid","users":4720},
+    {"stage":"Renewed","users":4100}
+  ],
+  "recentActivity": [
+    {"user":"Priya Sharma","action":"Upgraded to Enterprise","time":"2 min ago","type":"upgrade"},
+    {"user":"Rahul Mehta","action":"Placed order #ORD-10089","time":"8 min ago","type":"order"},
+    {"user":"Anita Verma","action":"Submitted refund request","time":"15 min ago","type":"refund"},
+    {"user":"Kiran Patel","action":"Completed onboarding","time":"23 min ago","type":"signup"},
+    {"user":"Suresh Nair","action":"Renewed Pro plan","time":"34 min ago","type":"renewal"},
+    {"user":"Deepa Joshi","action":"Left 5-star review","time":"1 hr ago","type":"review"},
+    {"user":"Vikram Singh","action":"Exported Q2 report","time":"1.5 hr ago","type":"export"},
+    {"user":"Neha Gupta","action":"Added new team member","time":"2 hr ago","type":"team"}
+  ],
+  "notifications": [
+    {"id":1,"title":"Revenue milestone reached","message":"Monthly revenue crossed $2.8M for the first time","type":"success","read":false,"time":"1 hr ago"},
+    {"id":2,"title":"Churn risk detected","message":"12 enterprise accounts show reduced activity","type":"warning","read":false,"time":"3 hr ago"},
+    {"id":3,"title":"System update scheduled","message":"Maintenance window: June 15, 2-4 AM IST","type":"info","read":true,"time":"5 hr ago"},
+    {"id":4,"title":"Payment failed","message":"Order #ORD-10007 payment declined","type":"error","read":false,"time":"6 hr ago"},
+    {"id":5,"title":"New feature deployed","message":"AI Insights v2.0 is now live","type":"success","read":true,"time":"1 day ago"}
+  ]
+}

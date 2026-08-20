@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  :root {
+    --scrollbar-width: 6px;
+    --transition-speed: 0.2s;
+  }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  ::-webkit-scrollbar { width: var(--scrollbar-width); height: var(--scrollbar-width); }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #3a4560; border-radius: 10px; }
+  ::-webkit-scrollbar-thumb:hover { background: #4f6080; }
+  .dark ::-webkit-scrollbar-thumb { background: #3a4560; }
+  .light ::-webkit-scrollbar-thumb { background: #c8cedb; }
+}
+
+@layer components {
+  .glass { backdrop-filter: blur(12px); background: rgba(255,255,255,0.05); }
+  .card-dark { @apply bg-dark-100 border border-dark-400 rounded-xl; }
+  .card-light { @apply bg-white border border-gray-200 rounded-xl; }
+  .btn-primary { @apply bg-indigo-500 hover:bg-indigo-600 text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 flex items-center gap-2 text-sm; }
+  .btn-outline { @apply bg-transparent border border-dark-400 hover:border-dark-500 hover:bg-dark-50 text-gray-400 hover:text-gray-200 font-medium px-4 py-2 rounded-lg transition-all duration-200 flex items-center gap-2 text-sm; }
+  .btn-ghost { @apply bg-transparent hover:bg-dark-50 text-gray-400 hover:text-gray-200 px-3 py-2 rounded-lg transition-all duration-200 flex items-center gap-2 text-sm; }
+  .input-dark { @apply bg-dark-50 border border-dark-400 focus:border-indigo-500 text-gray-200 placeholder-gray-600 rounded-lg px-3 py-2 text-sm outline-none transition-colors; }
+  .badge-success { @apply bg-emerald-500/10 text-emerald-400 text-xs font-semibold px-2 py-0.5 rounded-full; }
+  .badge-warning { @apply bg-amber-500/10 text-amber-400 text-xs font-semibold px-2 py-0.5 rounded-full; }
+  .badge-danger { @apply bg-red-500/10 text-red-400 text-xs font-semibold px-2 py-0.5 rounded-full; }
+  .badge-info { @apply bg-indigo-500/10 text-indigo-400 text-xs font-semibold px-2 py-0.5 rounded-full; }
+  .badge-gray { @apply bg-gray-500/10 text-gray-400 text-xs font-semibold px-2 py-0.5 rounded-full; }
+  .nav-link { @apply flex items-center gap-3 px-3 py-2 rounded-lg text-gray-400 hover:text-gray-200 hover:bg-dark-50 transition-all duration-150 cursor-pointer text-sm font-medium; }
+  .nav-link.active { @apply bg-indigo-500/10 text-indigo-400; }
+  .table-header-cell { @apply text-left text-xs font-semibold text-gray-500 uppercase tracking-wider px-4 py-3 border-b border-dark-400; }
+  .table-cell { @apply px-4 py-3 text-sm text-gray-300 border-b border-dark-400/50; }
+  .page-enter { animation: fadeIn 0.3s ease-out; }
+}
+
+@keyframes fadeIn { from { opacity:0; transform: translateY(8px); } to { opacity:1; transform: translateY(0); } }
+@keyframes slideUp { from { opacity:0; transform: translateY(20px); } to { opacity:1; transform: translateY(0); } }
+@keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+
+.skeleton {
+  background: linear-gradient(90deg, #1e2535 25%, #242d40 50%, #1e2535 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background: #161b27 !important;
+  border: 1px solid #2a3348 !important;
+  border-radius: 8px !important;
+  padding: 8px 12px !important;
+}
+
+.recharts-tooltip-label { color: #8892a4 !important; font-size: 12px !important; }
+.recharts-tooltip-item { color: #e8eaf0 !important; font-size: 13px !important; }

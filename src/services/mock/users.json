@@ -1,0 +1,22 @@
+[
+  {"id":1,"name":"Priya Sharma","email":"priya@email.com","role":"admin","status":"active","joined":"2024-01-15","orders":28,"ltv":12450,"region":"India","avatar":"PS"},
+  {"id":2,"name":"Rahul Mehta","email":"rahul@email.com","role":"user","status":"active","joined":"2024-02-03","orders":14,"ltv":4230,"region":"India","avatar":"RM"},
+  {"id":3,"name":"Anita Verma","email":"anita@email.com","role":"user","status":"inactive","joined":"2023-11-20","orders":7,"ltv":1980,"region":"India","avatar":"AV"},
+  {"id":4,"name":"Kiran Patel","email":"kiran@email.com","role":"manager","status":"active","joined":"2024-01-28","orders":35,"ltv":18600,"region":"India","avatar":"KP"},
+  {"id":5,"name":"Suresh Nair","email":"suresh@email.com","role":"user","status":"active","joined":"2024-03-10","orders":9,"ltv":3100,"region":"India","avatar":"SN"},
+  {"id":6,"name":"Alice Johnson","email":"alice@email.com","role":"user","status":"active","joined":"2024-01-05","orders":22,"ltv":8900,"region":"USA","avatar":"AJ"},
+  {"id":7,"name":"Bob Chen","email":"bob@email.com","role":"user","status":"active","joined":"2024-02-14","orders":18,"ltv":6750,"region":"China","avatar":"BC"},
+  {"id":8,"name":"Maria Garcia","email":"maria@email.com","role":"manager","status":"active","joined":"2023-12-01","orders":41,"ltv":22400,"region":"Spain","avatar":"MG"},
+  {"id":9,"name":"James Wilson","email":"james@email.com","role":"user","status":"inactive","joined":"2024-01-20","orders":5,"ltv":1450,"region":"UK","avatar":"JW"},
+  {"id":10,"name":"Yuki Tanaka","email":"yuki@email.com","role":"user","status":"active","joined":"2024-03-05","orders":12,"ltv":4100,"region":"Japan","avatar":"YT"},
+  {"id":11,"name":"Deepa Joshi","email":"deepa@email.com","role":"user","status":"active","joined":"2024-02-20","orders":19,"ltv":7200,"region":"India","avatar":"DJ"},
+  {"id":12,"name":"Vikram Singh","email":"vikram@email.com","role":"admin","status":"active","joined":"2023-10-15","orders":56,"ltv":31000,"region":"India","avatar":"VS"},
+  {"id":13,"name":"Neha Gupta","email":"neha@email.com","role":"user","status":"active","joined":"2024-01-30","orders":11,"ltv":3900,"region":"India","avatar":"NG"},
+  {"id":14,"name":"Arun Kumar","email":"arun@email.com","role":"user","status":"active","joined":"2024-02-08","orders":16,"ltv":5600,"region":"India","avatar":"AK"},
+  {"id":15,"name":"Divya Reddy","email":"divya@email.com","role":"manager","status":"active","joined":"2024-01-12","orders":29,"ltv":13200,"region":"India","avatar":"DR"},
+  {"id":16,"name":"Rohan Das","email":"rohan@email.com","role":"user","status":"inactive","joined":"2024-03-15","orders":3,"ltv":890,"region":"India","avatar":"RD"},
+  {"id":17,"name":"Pooja Iyer","email":"pooja@email.com","role":"user","status":"active","joined":"2024-02-25","orders":21,"ltv":8100,"region":"India","avatar":"PI"},
+  {"id":18,"name":"Sanjay Malhotra","email":"sanjay@email.com","role":"user","status":"active","joined":"2024-01-08","orders":33,"ltv":15700,"region":"India","avatar":"SM"},
+  {"id":19,"name":"Kavya Nair","email":"kavya@email.com","role":"user","status":"active","joined":"2024-03-20","orders":6,"ltv":2300,"region":"India","avatar":"KN"},
+  {"id":20,"name":"Amit Kapoor","email":"amit@email.com","role":"manager","status":"active","joined":"2023-11-05","orders":48,"ltv":27600,"region":"India","avatar":"AK2"}
+]
