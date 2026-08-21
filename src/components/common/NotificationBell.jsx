@@ -1,7 +1,7 @@
 import { Bell } from 'lucide-react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import analyticsData from '../../../services/mock/analytics.json'
+import analyticsData from '../../services/mock/analytics.json'
 
 export const NotificationBell = () => {
   const [open, setOpen] = useState(false)

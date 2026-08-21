@@ -4,7 +4,7 @@ import { PageContainer, PageHeader } from '../../../components/layout/PageContai
 import { Card } from '../../../components/ui/Card/Card'
 import { Button } from '../../../components/ui/Button/Button'
 import { Badge } from '../../../components/ui/Badge/Badge'
-import analyticsData from '../../../services/mock/analytics.json'
+import analyticsData from '../../services/mock/analytics.json'
 
 export default function Notifications() {
   const [notifs, setNotifs] = useState(analyticsData.notifications)

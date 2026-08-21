@@ -6,7 +6,7 @@ import { Badge } from '../../../components/ui/Badge/Badge'
 import { Button } from '../../../components/ui/Button/Button'
 import { TableSearch } from '../../../components/tables/TableSearch/TableSearch'
 import { CategoryFilter } from '../../../components/filters/CategoryFilter/CategoryFilter'
-import productsData from '../../../services/mock/products.json'
+import productsData from '../../services/mock/products.json'
 import { formatCurrency } from '../../../utils/formatCurrency'
 
 export default function Products() {

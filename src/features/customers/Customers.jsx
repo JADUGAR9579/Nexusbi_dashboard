@@ -10,7 +10,7 @@ import { RegionFilter } from '../../../components/filters/RegionFilter/RegionFil
 import { usePagination } from '../../../hooks/usePagination'
 import { formatCurrency } from '../../../utils/formatCurrency'
 import { exportToCSV } from '../../../utils/exportHelpers'
-import usersData from '../../../services/mock/users.json'
+import usersData from '../../services/mock/users.json'
 
 const kpis = [
   { label:'Total Customers', value:'48,392', change:'+12.5%', good:true },
